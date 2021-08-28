@@ -56,15 +56,47 @@
 		849E71F72677A6CD0055B65F /* Swipe-Page-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				849E720C2677A6E30055B65F /* Delegate */,
+				849E720D2677A6F20055B65F /* Controller */,
+				849E720F2677A70B0055B65F /* Storyboard */,
+				849E720E2677A7010055B65F /* Global */,
+			);
+			path = "Swipe-Page-Practice";
+			sourceTree = "<group>";
+		};
+		849E720C2677A6E30055B65F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
 				849E71F82677A6CD0055B65F /* AppDelegate.swift */,
 				849E71FA2677A6CD0055B65F /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		849E720D2677A6F20055B65F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				849E71FC2677A6CD0055B65F /* ViewController.swift */,
-				849E71FE2677A6CD0055B65F /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		849E720E2677A7010055B65F /* Global */ = {
+			isa = PBXGroup;
+			children = (
 				849E72012677A6D20055B65F /* Assets.xcassets */,
 				849E72032677A6D20055B65F /* LaunchScreen.storyboard */,
 				849E72062677A6D20055B65F /* Info.plist */,
 			);
-			path = "Swipe-Page-Practice";
+			path = Global;
+			sourceTree = "<group>";
+		};
+		849E720F2677A70B0055B65F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				849E71FE2677A6CD0055B65F /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Swipe-Page-Practice/Info.plist";
+				INFOPLIST_FILE = "Swipe-Page-Practice/Global/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Swipe-Page-Practice/Info.plist";
+				INFOPLIST_FILE = "Swipe-Page-Practice/Global/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
